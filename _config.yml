@@ -1,6 +1,6 @@
 # Site settings
-title: QiangLuis Blog
-SEOTitle: 小强的博客 | QiangLuis Blog
+title: LQ Blog
+SEOTitle: 小强的博客 | LQ Blog
 header-img: img/post-bg-apple-event-2015.jpg
 email: qiang.luis@gmail.com
 description: ""
@@ -12,9 +12,9 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: false
-weibo_username:     qiang.luis
-zhihu_username:     qiang.luis
-github_username:    qiang.luis
+weibo_username:     qiangluis
+zhihu_username:     liu-da-yong-gan
+github_username:    qiangluis
 #twitter_username:  huxpro
 facebook_username:  qiang.luis
 # linkedin_username:  firstname-lastname-idxxxx
