@@ -51,9 +51,9 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # # changyan settings
-# duoshuo_username: 象湖人家
+# changyan_username: 象湖人家
 # # Share component is depend on Comment so we can NOT use share only.
-# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+# changyan_share: true                     # set to false if you want to use Comment without Sharing
 
 #Changyan
 changyan_username: qiang.luis@foxmail.com 
