@@ -5,6 +5,19 @@ description: "我是LQ,我为我带盐."
 header-img: "img/about-me-bg.jpg"
 ---
 
+<link rel="stylesheet" href="{{ "/css/yue.css" | prepend: site.baseurl }}">
+<style type="text/css">
+    
+    .content {
+        max-width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        word-break: break-all;
+    }
+
+</style>
+
 <!-- Language Selector -->
 <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
     <option value="0" selected> 中文 Chinese </option>
@@ -14,6 +27,8 @@ header-img: "img/about-me-bg.jpg"
 <!-- Chinese Version -->
 <!--copied from markdown -->
 <div class="zh post-container">
+<div class="content yue ng-scope ng-isolate-scope" id="cvcontent" >
+<div class="resume_content ng-scope"><hr>
 
 <h1 id="">联系方式</h1>
 
@@ -44,26 +59,68 @@ header-img: "img/about-me-bg.jpg"
 
 <h2 id="201611t20175">北京搜狐互联网信息服务有限公司 （ 2016年11月 ~ 2017年5月 ）</h2>
 
+<h3 id="def">DEF项目</h3>
 
+<p>我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。</p>
+
+<h3 id="ghi">GHI项目</h3>
+
+<p>我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。</p>
+
+<h3 id="">其他项目</h3>
+
+<p>（每个公司写2~3个核心项目就好了，如果你有非常大量的项目，那么按分类进行合并，每一类选一个典型写出来。其他的一笔带过即可。）</p>
+
+<h2 id="jkl20103t20128">JKL公司 （ 2010年3月 ~ 2012年8月 ）</h2>
+
+<h3 id="mno">MNO项目</h3>
+
+<p>我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。</p>
+
+<h3 id="pqr">PQR项目</h3>
+
+<p>我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。</p>
+
+<h3 id="">其他项目</h3>
+
+<p>（每个公司写2~3个核心项目就好了，如果你有非常大量的项目，那么按分类进行合并，每一类选一个典型写出来。其他的一笔带过即可。）</p>
 
 <hr>
 
 <h1 id="">开源项目和作品</h1>
 
-
+<p>（这一段用于放置工作以外的、可证明你的能力的材料）</p>
 
 <h2 id="">开源项目</h2>
 
+<p>（对于程序员来讲，没有什么比Show me the code能有说服力了）</p>
+
+<ul>
+<li><a href="http://github.com/yourname/projectname">STU</a> : 项目的简要说明，Star和Fork数多的可以注明</li>
+<li><a href="http://github.com/yourname/projectname">WXYZ</a> : 项目的简要说明，Star和Fork数多的可以注明</li>
+</ul>
+
 <h2 id="">技术文章</h2>
-</p>
 
+<p>（挑选你写作或翻译的技术文章，好的文章可以从侧面证实你的表达和沟通能力，也帮助招聘方更了解你）</p>
 
+<ul>
+<li><a href="http://get.jobdeer.com/706.get">一个产品经理眼中的云计算：前生今世和未来</a></li>
+<li><a href="http://get.jobdeer.com/343.get">来自HeroKu的HTTP API 设计指南(翻译文章)</a> （ <code>好的翻译文章可以侧证你对英文技术文档的阅读能力</code>）</li>
+</ul>
 
 <h2 id="">演讲和讲义</h2>
 
+<p>（放置你代表公司在一些技术会议上做过的演讲，以及你在公司分享时制作的讲义）</p>
+
+<ul>
+<li>2014架构师大会演讲：<a href="http://jobdeer.com">如何通过Docker优化内部开发</a>
+<ul><li>9月公司内部分享：<a href="http://jobdeer.com">云计算的前生今世</a></li></ul></li>
+</ul>
 
 <h1 id="">技能清单</h1>
 
+<p>（我一般主张将技能清单写入到工作经历里边去。不过很难完整，所以有这么一段也不错）</p>
 
 <p>以下均为我熟练使用的技能</p>
 
@@ -80,6 +137,7 @@ header-img: "img/about-me-bg.jpg"
 
 <h2 id="">参考技能关键字</h2>
 
+<p>本技能关键字列表是从最近招聘Java的数百份JD中统计出来的，括号中是出现的词频。如果你的简历要投递给有机器（简历分选系统）和不如机器（不懂技术的HR）筛选简历环节的地方，请一定从下边高频关键词中选择5～10个适合你自己的。</p>
 
 <ul>
 <li>java(730)</li>
@@ -201,6 +259,7 @@ header-img: "img/about-me-bg.jpg"
 
 <p>感谢您花时间阅读我的简历，期待能有机会和您共事。</p></div></div>
 
+</div>
 
 <!-- English Version -->
 <div class="en post-container">
