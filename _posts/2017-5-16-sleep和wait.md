@@ -8,7 +8,7 @@ header-img: "img/in-post/sleepAndWait.jpg"
 header-mask: 0.3
 catalog:    false
 tags:
-    - java
+    - Java
 ---
 
 
