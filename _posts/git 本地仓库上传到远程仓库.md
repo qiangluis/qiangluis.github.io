@@ -1,0 +1,39 @@
+---
+layout:     post
+title:      "git 本地仓库上传到远程仓库围"
+subtitle:   "git"
+date:       2017-08-18 15:25:00
+author:     "LQ"
+header-img: "img/in-post/git.jpg"
+header-mask: 0.3
+catalog:   git
+tags:
+    -  Git
+---
+自己本地新建了一个项目，想通过git来将本地仓库传到服务器的仓库上去，所以就做了个记录，还有很多需要学习的地方，另外，庆祝一下签约，哈哈！
+1. 本地项目文件夹为：/zmsx,在改文件下初始化一个本地仓库
+    
+```
+//哪条命令不会git help
+git init zmsx.git
+```
+2. 登录到远程的git服务器上，在你需要上传的到目录文件下去新建一个空仓库，比如我在/home/zmsx,
+
+```
+git  --bare init zmsx.git
+```
+这样就在服务器端建立了一个空的git项目,记得加--bare。
+3. 之后，在本地，进入到zmsx目录里面，增加远程仓库。
+
+```
+git remote -v  
+//显示项目目前的远程仓库
+```
+
+```
+git remote add origin git:/ip:/home/zmsx/zmsx.git
+//这样就增加了远程仓库zmsx。
+```
+4. 最后，commit提交本地代码，git push origin master这样就把本地的git库上传到了远程git服务器的git库中了
+5. 如果远程仓库不是空仓库的话，则需要进行与本地仓库合并，输入git pull origin master从远程master分支获取内容，然后合并后上传git push origin master
+
